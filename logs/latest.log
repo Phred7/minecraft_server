@@ -1,0 +1,47 @@
+[12:00:10] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12:00:10] [main/INFO]: Reloading ResourceManager: Default, afk display v1.1.0.zip, anti enderman grief v1.1.0.zip, armor statues v2.8.1.zip, armored elytra v1.0.3.zip, bukkit, cauldron concrete v2.0.3.zip, double shulker shells v1.3.0.zip, dragon drops v1.3.0.zip, durability ping v1.1.0.zip, fast leaf decay v2.0.3.zip, graves v2.8.2.zip, player head drops v1.1.0.zip, unlock all recipes v2.0.1.zip, villager death messages v1.2.1.zip, villager workstation highlights v1.1.0.zip, anti creeper grief v1.1.0.zip, count mob deaths v1.1.0.zip, track raw statistics v1.4.0.zip, track statistics v1.1.0.zip, treecapitator-v2-7-2.zip, more mob heads v2.9.1.zip
+[12:00:11] [Worker-Main-2/INFO]: Loaded 7 recipes
+[12:00:12] [Server thread/INFO]: Starting minecraft server version 1.17.1
+[12:00:12] [Server thread/INFO]: Loading properties
+[12:00:12] [Server thread/INFO]: This server is running Paper version git-Paper-377 (MC: 1.17.1) (Implementing API version 1.17.1-R0.1-SNAPSHOT) (Git: 3f17694)
+[12:00:12] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:00:12] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:00:13] [Server thread/INFO]: Default game type: SURVIVAL
+[12:00:13] [Server thread/INFO]: Generating keypair
+[12:00:13] [Server thread/INFO]: Starting Minecraft server on 192.168.1.148:25565
+[12:00:13] [Server thread/INFO]: Using epoll channel type
+[12:00:13] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[12:00:13] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[12:00:13] [Server thread/INFO]: [UltimateAutoRestart] Loading UltimateAutoRestart vBuild 44c
+[12:00:13] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:00:13] [Server thread/INFO]: Preparing level "gremlincraft"
+[12:00:14] [Server thread/INFO]: [UltimateAutoRestart] Enabling UltimateAutoRestart vBuild 44c
+[12:00:14] [Server thread/INFO]:  
+[12:00:14] [Server thread/INFO]: UltimateAutoRestart Build 44c, a free resource by Norska - Thanks for using!
+[12:00:14] [Server thread/INFO]:  
+[12:00:14] [Server thread/INFO]: Running delayed init tasks
+[12:00:14] [Server thread/INFO]: Done (1.916s)! For help, type "help"
+[12:00:14] [Server thread/INFO]: Timings Reset
+[12:00:15] [Server thread/WARN]: UUID of added entity already exists: EntityArmorStand['Armor Stand'/3, uuid='a093751a-2c77-4658-9d5f-62ab4494bdaf', l='ServerLevel[gremlincraft]', x=16562064.50, y=1000.00, z=-22242911.50, cpos=[1035129, -1390182], tl=1727717, v=false, rR=null]
+[12:00:15] [Server thread/WARN]: UUID of added entity already exists: EntityArmorStand['Armor Stand'/4, uuid='291dfbec-2b7b-4c2b-9899-f665ea53af5d', l='ServerLevel[gremlincraft]', x=22068880.50, y=1000.00, z=-4185487.50, cpos=[1379305, -261593], tl=1727716, v=false, rR=null]
+[12:00:17] [Server thread/INFO]: 
+[12:00:17] [Server thread/INFO]:  (UltimateAutoRestart) A new update is available!
+[12:00:17] [Server thread/INFO]:  Running on Build 44c while latest is Build 51e!
+[12:00:17] [Server thread/INFO]:  https://www.spigotmc.org/resources/64414/
+[12:00:17] [Server thread/INFO]:  https://polymart.org/resource/35
+[12:00:17] [Server thread/INFO]: 
+[21:50:53] [Server thread/INFO]: Stopping the server
+[21:50:53] [Server thread/INFO]: Stopping server
+[21:50:53] [Server thread/INFO]: [UltimateAutoRestart] Disabling UltimateAutoRestart vBuild 44c
+[21:50:53] [Server thread/INFO]: Saving players
+[21:50:54] [Server thread/INFO]: Saving worlds
+[21:50:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[gremlincraft]'/minecraft:overworld
+[21:50:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[gremlincraft_nether]'/minecraft:the_nether
+[21:50:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[gremlincraft_the_end]'/minecraft:the_end
+[21:50:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (gremlincraft): All chunks are saved
+[21:50:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:50:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:50:54] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:50:54] [Server thread/INFO]: Flushing Chunk IO
+[21:50:54] [Server thread/INFO]: Closing Thread Pool
+[21:50:54] [Server thread/INFO]: Closing Server
