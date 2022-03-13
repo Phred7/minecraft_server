@@ -1,0 +1,9 @@
+a=0
+while $a == 0
+do
+	java -server -Xmx5G -Xms1024M -jar paper1_16_4.jar nogui
+
+	echo Backing-up
+
+	python /home/phred7/PycharmProjects/minecraftServer/venv/init.py
+done
