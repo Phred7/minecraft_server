@@ -1,0 +1,148 @@
+[18:53:23] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:53:24] [main/INFO]: Reloading ResourceManager: Default, bukkit, graves v2.8.0.zip, player head drops v1.1.0.zip, unlock all recipes v2.0.0.zip, unlock_all_recipes.zip, TreeCapitator 1.16.1.zip, armored elytra v1.0.3.zip, durability ping v1.1.0.zip, more mob heads v2.8.2.zip, track raw statistics v1.4.0.zip, villager death messages v1.2.1.zip, wandering trades v1.4.0.zip, double shulker shells v1.3.0.zip
+[18:53:25] [Worker-Main-4/INFO]: Loaded 7 recipes
+[18:53:25] [Worker-Main-4/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
+[18:53:25] [Worker-Main-4/WARN]: Found validation problem in {minecraft:entities/villager}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/villager/villager_head
+[18:53:25] [Worker-Main-4/ERROR]: Failed to load function armored_elytra:break_armored_elytra
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 7: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1766) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[?:?]
+	at java.lang.Thread.run(Thread.java:853) [?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 7: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at net.minecraft.commands.CommandFunction.fromLines(CommandFunction.java:68) ~[?:?]
+	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$3(ServerFunctionLibrary.java:86) ~[?:?]
+	at net.minecraft.server.CustomFunctionManager$$Lambda$3547/0x0000000030016090.get(Unknown Source) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764) ~[?:?]
+	... 3 more
+[18:53:25] [Worker-Main-4/ERROR]: Failed to load function graves:create_grave
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 10: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1766) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[?:?]
+	at java.lang.Thread.run(Thread.java:853) [?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 10: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at net.minecraft.commands.CommandFunction.fromLines(CommandFunction.java:68) ~[?:?]
+	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$3(ServerFunctionLibrary.java:86) ~[?:?]
+	at net.minecraft.server.CustomFunctionManager$$Lambda$3547/0x0000000030016090.get(Unknown Source) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764) ~[?:?]
+	... 3 more
+[18:53:25] [Worker-Main-4/ERROR]: Failed to load function track_raw_stats:load
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 35: Unknown criterion 'minecraft.custom:minecraft.play_one_minute'
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1766) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[?:?]
+	at java.lang.Thread.run(Thread.java:853) [?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 35: Unknown criterion 'minecraft.custom:minecraft.play_one_minute'
+	at net.minecraft.commands.CommandFunction.fromLines(CommandFunction.java:68) ~[?:?]
+	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$3(ServerFunctionLibrary.java:86) ~[?:?]
+	at net.minecraft.server.CustomFunctionManager$$Lambda$3547/0x0000000030016090.get(Unknown Source) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764) ~[?:?]
+	... 3 more
+[18:53:25] [Worker-Main-4/ERROR]: Couldn't load tag minecraft:load as it is missing following references: track_raw_stats:load (from track raw statistics v1.4.0.zip)
+[18:53:26] [Server thread/INFO]: Starting minecraft server version 1.17.1
+[18:53:26] [Server thread/INFO]: Loading properties
+[18:53:26] [Server thread/INFO]: This server is running Paper version git-Paper-120 (MC: 1.17.1) (Implementing API version 1.17.1-R0.1-SNAPSHOT) (Git: 2780e94)
+[18:53:26] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:53:26] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:53:26] [Server thread/INFO]: Debug logging is disabled
+[18:53:26] [Server thread/INFO]: Default game type: SURVIVAL
+[18:53:26] [Server thread/INFO]: Generating keypair
+[18:53:27] [Server thread/INFO]: Starting Minecraft server on 192.168.1.148:25566
+[18:53:27] [Server thread/INFO]: Using epoll channel type
+[18:53:27] [Server thread/INFO]: [UltimateAutoRestart] Loading UltimateAutoRestart vBuild 42a
+[18:53:27] [Server thread/INFO]: [SinglePlayerSleep] Loading SinglePlayerSleep v1.13_2.13.46
+[18:53:27] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:53:27] [Server thread/INFO]: Preparing level "take2"
+[18:53:27] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:53:31] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[18:53:31] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[18:53:31] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[18:53:31] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[18:53:31] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[18:53:31] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[18:53:31] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[18:53:31] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[18:53:31] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:53:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:53:32] [Server thread/INFO]: Time elapsed: 4739 ms
+[18:53:32] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:53:35] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[18:53:35] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:53:35] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:53:35] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:53:35] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:53:35] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:53:35] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:53:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:53:36] [Server thread/INFO]: Time elapsed: 3674 ms
+[18:53:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:53:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:53:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:53:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:53:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:53:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:53:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:53:39] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:53:39] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[18:53:40] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[18:53:40] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[18:53:41] [Server thread/INFO]: Preparing spawn area: 0%
+[18:53:41] [Server thread/INFO]: Preparing spawn area: 0%
+[18:53:41] [Server thread/INFO]: Time elapsed: 5601 ms
+[18:53:41] [Server thread/INFO]: [UltimateAutoRestart] Enabling UltimateAutoRestart vBuild 42a
+[18:53:42] [Server thread/INFO]: 
+[18:53:42] [Server thread/INFO]: UltimateAutoRestart Build 42a, a free resource by Norska - Enabled!
+[18:53:42] [Server thread/INFO]: 
+[18:53:42] [Server thread/INFO]: [SinglePlayerSleep] Enabling SinglePlayerSleep v1.13_2.13.46
+[18:53:42] [Server thread/INFO]: **************************************
+[18:53:42] [Server thread/INFO]: SinglePlayerSleep v1.13_2.13.46 Loading...
+[18:53:42] [Server thread/INFO]: SinglePlayerSleep v1.13_2.13.46 plugins/SinglePlayerSleep/config.yml
+[18:53:42] [Server thread/INFO]: SinglePlayerSleep v1.13_2.13.46 config.yml has been updated
+[18:53:42] [Server thread/INFO]: Checking for updates...
+[18:53:42] [Server thread/INFO]: SinglePlayerSleep v1.13_2.13.46 plugins/SinglePlayerSleep/permissions.yml
+[18:53:42] [Server thread/INFO]: **************************************
+[18:53:42] [Server thread/INFO]: SinglePlayerSleep v1.13_2.13.46 is ENABLED
+[18:53:42] [Server thread/INFO]: **************************************
+[18:53:42] [Server thread/INFO]: SinglePlayerSleep v1.13_2.13.46 This server is running Paper version git-Paper-120 (MC: 1.17.1) (Implementing API version 1.17.1-R0.1-SNAPSHOT)
+[18:53:42] [Server thread/INFO]: SinglePlayerSleep v1.13_2.13.46 vardebug=false debug=false in plugins/SinglePlayerSleep/config.yml
+[18:53:42] [Server thread/INFO]: SinglePlayerSleep v1.13_2.13.46 jarfilename=/home/phred7/Desktop/old/hardcore/plugins/SinglePlayerSleep-1.13_2.13.46.jar
+[18:53:42] [Server thread/INFO]: Running delayed init tasks
+[18:53:42] [Server thread/INFO]: Done (16.273s)! For help, type "help"
+[18:53:43] [Server thread/INFO]: Timings Reset
+[18:53:45] [User Authenticator #1/INFO]: UUID of player Phred7 is b8bed4fd-6c2f-4f4f-a216-118ed8719365
+[18:53:46] [Server thread/INFO]: Phred7 joined the game
+[18:53:46] [Server thread/INFO]: Phred7[/73.140.88.8:1026] logged in with entity id 357 at ([take2]169.40751551723778, 8.113901322479714, -74.17426521042665)
+[18:53:46] [Server thread/INFO]: 
+[18:53:46] [Server thread/INFO]:  (UltimateAutoRestart) A new update is available!
+[18:53:46] [Server thread/INFO]:  Running on Build 42a while latest is Build 44c!
+[18:53:46] [Server thread/INFO]:  https://www.spigotmc.org/resources/64414/
+[18:53:46] [Server thread/INFO]:  https://www.mc-market.org/resources/9606/
+[18:53:46] [Server thread/INFO]: 
+[18:54:10] [Server thread/INFO]: Phred7 lost connection: Disconnected
+[18:54:10] [Server thread/INFO]: Phred7 left the game
+[19:04:18] [Server thread/INFO]: Stopping the server
+[19:04:18] [Server thread/INFO]: Stopping server
+[19:04:18] [Server thread/INFO]: [SinglePlayerSleep] Disabling SinglePlayerSleep v1.13_2.13.46
+[19:04:18] [Server thread/INFO]: **************************************
+[19:04:18] [Server thread/INFO]: SinglePlayerSleep v1.13_2.13.46 is DISABLED
+[19:04:18] [Server thread/INFO]: **************************************
+[19:04:18] [Server thread/INFO]: [UltimateAutoRestart] Disabling UltimateAutoRestart vBuild 42a
+[19:04:18] [Server thread/INFO]: Saving players
+[19:04:18] [Server thread/INFO]: Saving worlds
+[19:04:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[take2]'/minecraft:overworld
+[19:04:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[take2_nether]'/minecraft:the_nether
+[19:04:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[take2_the_end]'/minecraft:the_end
+[19:04:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (take2): All chunks are saved
+[19:04:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:04:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:04:18] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:04:18] [Server thread/INFO]: Flushing Chunk IO
+[19:04:18] [Server thread/INFO]: Closing Thread Pool
+[19:04:18] [Server thread/INFO]: Closing Server
