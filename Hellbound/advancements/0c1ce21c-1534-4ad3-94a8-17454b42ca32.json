@@ -1,0 +1,87 @@
+{
+  "grant_gryczan:unlock_all_recipes": {
+    "criteria": {
+      "tick": "2020-11-02 04:23:28 -0800"
+    },
+    "done": true
+  },
+  "grant_gryczan:players_drop_heads": {
+    "criteria": {
+      "tick": "2020-11-02 04:23:28 -0800"
+    },
+    "done": true
+  },
+  "grant_gryczan:root": {
+    "criteria": {
+      "tick": "2020-11-02 04:23:28 -0800"
+    },
+    "done": true
+  },
+  "armor_statues:enable": {
+    "criteria": {
+      "tick": "2020-11-02 04:23:28 -0800"
+    },
+    "done": true
+  },
+  "vanillatweaks:root": {
+    "criteria": {
+      "tick": "2020-11-02 04:23:28 -0800"
+    },
+    "done": true
+  },
+  "vanillatweaks:villager_death": {
+    "criteria": {
+      "tick": "2020-11-02 04:23:28 -0800"
+    },
+    "done": true
+  },
+  "vanillatweaks:anti_ghast_grief": {
+    "criteria": {
+      "tick": "2020-11-02 04:23:28 -0800"
+    },
+    "done": true
+  },
+  "vanillatweaks:anti_enderman_grief": {
+    "criteria": {
+      "tick": "2020-11-02 04:23:28 -0800"
+    },
+    "done": true
+  },
+  "vanillatweaks:durability_ping": {
+    "criteria": {
+      "tick": "2020-11-02 04:23:28 -0800"
+    },
+    "done": true
+  },
+  "grant_gryczan:graves": {
+    "criteria": {
+      "tick": "2020-11-02 04:23:28 -0800"
+    },
+    "done": true
+  },
+  "grant_gryczan:never_too_expensive": {
+    "criteria": {
+      "tick": "2020-11-02 04:23:28 -0800"
+    },
+    "done": true
+  },
+  "grant_gryczan:confetti_creepers": {
+    "criteria": {
+      "tick": "2020-11-02 04:23:28 -0800"
+    },
+    "done": true
+  },
+  "vanillatweaks:armor_statues": {
+    "criteria": {
+      "tick": "2020-11-02 04:23:28 -0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2020-11-02 04:23:27 -0800"
+    },
+    "done": false
+  },
+  "DataVersion": 2580
+}
