@@ -1,0 +1,42 @@
+langversion: 2.13.42
+bloodmoon: You can not sleep during a bloodmoon.
+boolean: Argument musi być logiczny. Stosowanie
+cancel: ANULUJ
+canceledsleep: <player> anulował drzemkę.
+cancelhelp: Anuluje Single Player Sleep. Nie zmienia się z dnia na dzień.
+cancelunrestricted: Anulowanie jest wyłączone.
+checkset: auto-update-check zostało ustawione na
+clickcancel: Kliknij aby anulować
+curvers: Wersja jest aktualna!
+dayskipblackbed: Łóżko musi być czarne aby użyć DaySkipper.
+dayskipcancel: ANULUJ
+dayskipcanceled: <player> anulował DaySkip.
+dayskipclickcancel: Kliknij aby pominąć DaySkip
+dayskipmsg: <player> chce przespać cały dzień...
+dayskipmsgcommand: <player> chce przespać cały dzień ......<command>
+dayskipsettime: Nastąpiła noc.
+debugtrue: Debugowanie ustawione na boolean.
+issleep: <player> śpi.
+mustbeday: Musi być dzień aby to użyć.
+mustbenight: To musi być noc.
+newvers: Nowa wersja dostępna!
+nightorstorm: Musi być noc albo burza aby pojść spać.
+nocancel: Nie możesz anulować czegoś czego nie ma.
+nocheck: nie będzie sprawdzać aktualizacji!
+noperm: Brak permisji
+notop: Nie jesteś OP, lub auto-update-check jest ustawiony na false w config.yml
+reloaded: SinglePlayerSleep został przeładowany.
+respawnpointmsg: Ustawiono punkt odrodzenia.
+setdownfall: Usuwanie upadku
+setthunder: Usuwanie burzy
+settime: Ustawianie czasu na dzień
+sleepcommand: <player> śpi <command>
+sleephelp: podlega zatwierdzeniu przez administratora serwera
+sleeplimit: Nie możesz tego zrobić przez <length> sekund
+spscheck: ustaw auto-update-check na true albo false.
+spshelp: Wyświetla SinglePlayerSleep pomoc.
+spsreload: Przeładowano konfiguracje.
+spsupdate: Sprawdza aktualizacje.
+toggledebug: Tymczasowo przełącza debugowanie.
+touse: Musisz być w łóżku aby tego użyć.
+yescheck: będzie sprawdzać aktualizacje.

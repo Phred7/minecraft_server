@@ -1,0 +1,85 @@
+#########################################################################################
+#                                                                                       #
+# UltimateAutoRestart, a free resource by Norska#1933 [ID: 253886847690866688]          #
+#                                                                                       #
+# Wiki: https://norska.dev/docs/welcome                                                 #
+# Support: https://norska.dev/discord                                                   #
+#                                                                                       #
+# You are editing the config.yml file of UltimateAutoRestart.                           #
+#                                                                                       #
+#########################################################################################
+
+#########################################################################################
+#                                                                                       #
+# NOTE: PLEASE READ BEFORE CONFIGURING!                                                 #
+#                                                                                       #
+# Please consult the wiki for any questions regarding the setup of this plugin, if you  #
+# still require help, open a ticket on my discord server!                               #
+#                                                                                       #
+#########################################################################################
+
+settings:
+  restartCommands:
+  - save-all
+  - restart
+  restarts:
+  - Monday;12;01
+  - Monday;23;01
+  - Tuesday;12;01
+  - Tuesday;23;01
+  - Wednesday;12;01
+  - Wednesday;23;01
+  - Thursday;12;01
+  - Thursday;23;01
+  - Friday;12;01
+  - Friday;23;01
+  - Saturday;12;01
+  - Saturday;23;01
+  - Sunday;12;01
+  - Sunday;23;59
+  messageAtIntervals:
+  - '1800'
+  - '600'
+  - '60'
+  - '20'
+  - '10'
+  - '3'
+  - '2'
+  - '1'
+  soundsEnabled: true
+  sound: ENTITY_PLAYER_LEVELUP
+  soundAtIntervals:
+  - '1800'
+  - '600'
+  - '60'
+  - '20'
+  - '10'
+  - '3'
+  - '2'
+  - '1'
+
+# Note: Push back the restart if x players are currently on the server!
+delayRestart:
+  enabled: false
+  checkSecondsBeforeRestart: 30
+  minimumPlayers: 1
+  delayBySeconds: 600
+  informUsersWithPermission: true
+  delayNotification:
+  - '&7[UltimateAutoRestart] The restart has been delayed due to exceeding the online
+    players threshold!'
+
+# Note: Configure how the interval shows up!   
+format:
+  seconds: s
+  second: s
+  minutes: 'm '
+  minute: 'm '
+  hours: 'h '
+  hour: 'h '
+  days: 'D '
+  day: 'D '
+  splitter: 'and '
+
+updates:
+  notifications: true

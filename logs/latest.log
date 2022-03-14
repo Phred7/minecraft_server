@@ -1,0 +1,120 @@
+[12:01:16] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12:01:16] [main/INFO]: Reloading ResourceManager: Default, afk display v1.1.0.zip, anti enderman grief v1.1.0.zip, armor statues v2.8.1.zip, armored elytra v1.0.3.zip, bukkit, cauldron concrete v2.0.3.zip, double shulker shells v1.3.0.zip, dragon drops v1.3.0.zip, durability ping v1.1.0.zip, fast leaf decay v2.0.3.zip, graves v2.8.2.zip, more mob heads v2.9.1.zip, player head drops v1.1.0.zip, unlock all recipes v2.0.1.zip, villager death messages v1.2.1.zip, villager workstation highlights v1.1.0.zip, anti creeper grief v1.1.0.zip, count mob deaths v1.1.0.zip, track raw statistics v1.4.0.zip, track statistics v1.1.0.zip, treecapitator-v2-7-2.zip
+[12:01:17] [Worker-Main-4/INFO]: Loaded 7 recipes
+[12:01:17] [Worker-Main-4/WARN]: Found validation problem in {minecraft:entities/villager}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/villager/villager_head
+[12:01:19] [Server thread/INFO]: Starting minecraft server version 1.17
+[12:01:19] [Server thread/INFO]: Loading properties
+[12:01:19] [Server thread/INFO]: This server is running Paper version git-Paper-"28aacb4" (MC: 1.17) (Implementing API version 1.17-R0.1-SNAPSHOT)
+[12:01:19] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:01:19] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:01:19] [Server thread/INFO]: Debug logging is disabled
+[12:01:19] [Server thread/INFO]: Default game type: CREATIVE
+[12:01:19] [Server thread/INFO]: Generating keypair
+[12:01:19] [Server thread/INFO]: Starting Minecraft server on 192.168.1.106:25566
+[12:01:20] [Server thread/INFO]: Using epoll channel type
+[12:01:20] [Server thread/INFO]: [UltimateAutoRestart] Loading UltimateAutoRestart vBuild 44b
+[12:01:20] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.3.0-SNAPSHOT+5836-183ae4a
+[12:01:20] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@77c1286e]
+[12:01:20] [Server thread/INFO]: [SinglePlayerSleep] Loading SinglePlayerSleep v1.13_2.13.46
+[12:01:21] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:01:21] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.0-SNAPSHOT+5836-183ae4a
+[12:01:21] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[12:01:21] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[12:01:21] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_17_R1 as the Bukkit adapter
+[12:01:22] [Server thread/INFO]: Preparing level "gremlincraft"
+[12:01:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:01:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[12:01:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[12:01:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[12:01:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[12:01:26] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:01:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[12:01:26] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[12:01:26] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[12:01:26] [Server thread/INFO]: Time elapsed: 3540 ms
+[12:01:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[12:01:28] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[12:01:28] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[12:01:28] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[12:01:28] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[12:01:28] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:01:29] [Server thread/INFO]: Time elapsed: 2336 ms
+[12:01:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[12:01:32] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:01:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[12:01:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[12:01:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[12:01:32] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[12:01:32] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[12:01:32] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[12:01:32] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[12:01:33] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[12:01:33] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[12:01:34] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[12:01:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[12:01:35] [Server thread/INFO]: Preparing spawn area: 0%
+[12:01:35] [Server thread/INFO]: Preparing spawn area: 0%
+[12:01:35] [Server thread/INFO]: Time elapsed: 6795 ms
+[12:01:35] [Server thread/INFO]: [UltimateAutoRestart] Enabling UltimateAutoRestart vBuild 44b
+[12:01:36] [Server thread/INFO]:  
+[12:01:36] [Server thread/INFO]: UltimateAutoRestart Build 44b, a free resource by Norska - Thanks for using!
+[12:01:36] [Server thread/INFO]:  
+[12:01:36] [Server thread/INFO]: [SinglePlayerSleep] Enabling SinglePlayerSleep v1.13_2.13.46
+[12:01:36] [Server thread/INFO]: **************************************
+[12:01:36] [Server thread/INFO]: SinglePlayerSleep v1.13_2.13.46 Loading...
+[12:01:36] [Server thread/INFO]: SinglePlayerSleep v1.13_2.13.46 plugins/SinglePlayerSleep/config.yml
+[12:01:36] [Server thread/INFO]: SinglePlayerSleep v1.13_2.13.46 config.yml has been updated
+[12:01:36] [Server thread/INFO]: Checking for updates...
+[12:01:37] [Server thread/INFO]: SinglePlayerSleep v1.13_2.13.46 plugins/SinglePlayerSleep/permissions.yml
+[12:01:37] [Server thread/INFO]: **************************************
+[12:01:37] [Server thread/INFO]: SinglePlayerSleep v1.13_2.13.46 is ENABLED
+[12:01:37] [Server thread/INFO]: **************************************
+[12:01:37] [Server thread/INFO]: SinglePlayerSleep v1.13_2.13.46 This server is running Paper version git-Paper-"28aacb4" (MC: 1.17) (Implementing API version 1.17-R0.1-SNAPSHOT)
+[12:01:37] [Server thread/INFO]: SinglePlayerSleep v1.13_2.13.46 vardebug=false debug=false in plugins/SinglePlayerSleep/config.yml
+[12:01:37] [Server thread/INFO]: SinglePlayerSleep v1.13_2.13.46 jarfilename=/home/phred7/Desktop/paperServer1_17_1_dev/plugins/SinglePlayerSleep-1.13_2.13.46.jar
+[12:01:37] [Server thread/INFO]: Running delayed init tasks
+[12:01:37] [Server thread/INFO]: Done (18.166s)! For help, type "help"
+[12:01:37] [Server thread/INFO]: Timings Reset
+[12:01:37] [Server thread/WARN]: UUID of added entity already exists: EntityArmorStand['Armor Stand'/156, uuid='a093751a-2c77-4658-9d5f-62ab4494bdaf', l='ServerLevel[gremlincraft]', x=16562064.50, y=1000.00, z=-22242911.50, cpos=[1035129, -1390182], tl=226125, v=false, rR=null]
+[12:01:37] [Server thread/WARN]: UUID of added entity already exists: EntityArmorStand['Armor Stand'/172, uuid='291dfbec-2b7b-4c2b-9899-f665ea53af5d', l='ServerLevel[gremlincraft]', x=22068880.50, y=1000.00, z=-4185487.50, cpos=[1379305, -261593], tl=226125, v=false, rR=null]
+[12:29:10] [User Authenticator #1/INFO]: UUID of player Phred7 is b8bed4fd-6c2f-4f4f-a216-118ed8719365
+[12:29:10] [Server thread/INFO]: Phred7 joined the game
+[12:29:11] [Server thread/INFO]: Phred7[/154.21.20.155:1048] logged in with entity id 311 at ([gremlincraft]-18.032323896102987, 82.99390748022948, -256.2971617888022)
+[12:29:17] [Server thread/INFO]: Phred7 issued server command: /gamemode spectator
+[12:29:17] [Server thread/INFO]: [Phred7: Set own game mode to Spectator Mode]
+[12:29:26] [Server thread/INFO]: Phred7 issued server command: /time set day
+[12:29:26] [Server thread/INFO]: [Phred7: Set the time to 1000]
+[12:30:11] [Server thread/INFO]: Phred7 issued server command: /gamemode creative
+[12:30:11] [Server thread/INFO]: [Phred7: Set own game mode to Creative Mode]
+[12:30:16] [Server thread/INFO]: Phred7 lost connection: Disconnected
+[12:30:16] [Server thread/INFO]: Phred7 left the game
+[12:30:28] [User Authenticator #2/INFO]: UUID of player Phred7 is b8bed4fd-6c2f-4f4f-a216-118ed8719365
+[12:30:29] [Server thread/INFO]: Phred7 joined the game
+[12:30:29] [Server thread/INFO]: Phred7[/154.21.20.155:1074] logged in with entity id 1632 at ([gremlincraft]423.3467361990518, 102.99157221173608, 322.6072935873703)
+[12:37:02] [Server thread/INFO]: Phred7 issued server command: /gamemode spectator
+[12:37:02] [Server thread/INFO]: [Phred7: Set own game mode to Spectator Mode]
+[12:40:08] [Server thread/INFO]: Phred7 lost connection: Disconnected
+[12:40:08] [Server thread/INFO]: Phred7 left the game
+[20:28:30] [Server thread/INFO]: Stopping the server
+[20:28:30] [Server thread/INFO]: Stopping server
+[20:28:30] [Server thread/INFO]: [SinglePlayerSleep] Disabling SinglePlayerSleep v1.13_2.13.46
+[20:28:30] [Server thread/INFO]: **************************************
+[20:28:30] [Server thread/INFO]: SinglePlayerSleep v1.13_2.13.46 is DISABLED
+[20:28:30] [Server thread/INFO]: **************************************
+[20:28:30] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.0-SNAPSHOT+5836-183ae4a
+[20:28:30] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[20:28:30] [Server thread/INFO]: [UltimateAutoRestart] Disabling UltimateAutoRestart vBuild 44b
+[20:28:30] [Server thread/INFO]: Saving players
+[20:28:31] [Server thread/INFO]: Saving worlds
+[20:28:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[gremlincraft]'/minecraft:overworld
+[20:28:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (gremlincraft): All chunks are saved
+[20:28:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[gremlincraft_nether]'/minecraft:the_nether
+[20:28:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:28:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[gremlincraft_the_end]'/minecraft:the_end
+[20:28:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:28:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (gremlincraft): All chunks are saved
+[20:28:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:28:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:28:31] [Server thread/INFO]: Flushing Chunk IO
+[20:28:31] [Server thread/INFO]: Closing Thread Pool
+[20:28:31] [Server thread/INFO]: Closing Server
