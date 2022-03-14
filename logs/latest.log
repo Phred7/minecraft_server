@@ -1,0 +1,91 @@
+[05:00:26] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[05:00:27] [main/INFO]: Reloading ResourceManager: Default, Timber.zip, bukkit, graves v2.8.0.zip, player head drops v1.1.0.zip
+[05:00:27] [Worker-Main-3/INFO]: Loaded 7 recipes
+[05:00:29] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[05:00:29] [Server thread/INFO]: Loading properties
+[05:00:29] [Server thread/INFO]: This server is running Paper version git-Paper-504 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[05:00:29] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[05:00:29] [Server thread/INFO]: Using 4 threads for Netty based IO
+[05:00:29] [Server thread/INFO]: Debug logging is disabled
+[05:00:29] [Server thread/INFO]: Default game type: SURVIVAL
+[05:00:29] [Server thread/INFO]: Generating keypair
+[05:00:29] [Server thread/INFO]: Starting Minecraft server on *:25565
+[05:00:29] [Server thread/INFO]: Using epoll channel type
+[05:00:29] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[05:00:33] [Server thread/WARN]: Legacy plugin Minetrends v2.0.2 does not specify an api-version.
+[05:00:33] [Server thread/INFO]: [UltimateAutoRestart] Loading UltimateAutoRestart vBuild 40d
+[05:00:33] [Server thread/INFO]: [SinglePlayerSleep] Loading SinglePlayerSleep v1.13_2.13.45.2
+[05:00:33] [Server thread/INFO]: [Minetrends] Loading Minetrends v2.0.2
+[05:00:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[05:00:33] [Server thread/INFO]: Preparing level "hardogre"
+[05:00:34] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[05:00:34] [Server thread/INFO]: Loaded 0 spawn chunks for world hardogre
+[05:00:34] [Server thread/INFO]: Preparing spawn area: 0%
+[05:00:34] [Server thread/INFO]: Preparing spawn area: 0%
+[05:00:34] [Server thread/INFO]: Time elapsed: 881 ms
+[05:00:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[05:00:35] [Server thread/INFO]: Loaded 0 spawn chunks for world hardogre_nether
+[05:00:35] [Server thread/INFO]: Preparing spawn area: 0%
+[05:00:35] [Worker-Main-5/INFO]: Preparing spawn area: 98%
+[05:00:35] [Server thread/INFO]: Time elapsed: 568 ms
+[05:00:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[05:00:35] [Server thread/INFO]: Loaded 0 spawn chunks for world hardogre_the_end
+[05:00:35] [Server thread/INFO]: Preparing spawn area: 0%
+[05:00:35] [Server thread/INFO]: Time elapsed: 329 ms
+[05:00:35] [Server thread/INFO]: [UltimateAutoRestart] Enabling UltimateAutoRestart vBuild 40d
+[05:00:36] [Server thread/INFO]: 
+[05:00:36] [Server thread/INFO]: UltimateAutoRestart Build 40d, a free resource by Norska - Enabled!
+[05:00:36] [Server thread/INFO]: 
+[05:00:36] [Server thread/INFO]: [SinglePlayerSleep] Enabling SinglePlayerSleep v1.13_2.13.45.2
+[05:00:36] [Server thread/INFO]: [1m[32m**************************************[0m
+[05:00:36] [Server thread/INFO]: [1m[33mSinglePlayerSleep v1.13_2.13.45.2[0m Loading...
+[05:00:36] [Server thread/INFO]: [1m[33mSinglePlayerSleep v1.13_2.13.45.2[0m plugins/SinglePlayerSleep/config.yml
+[05:00:36] [Server thread/INFO]: Checking for updates...
+[05:00:38] [Server thread/INFO]: SinglePlayerSleep[1m[31m v1.13_2.13.45.2[0m New version available![1m[32m v1.13_2.13.46[0m
+[05:00:38] [Server thread/INFO]: https://spigotmc.org/resources/68139
+[05:00:38] [Server thread/INFO]: [1m[33mSinglePlayerSleep v1.13_2.13.45.2[0m plugins/SinglePlayerSleep/permissions.yml
+[05:00:38] [Server thread/INFO]: [1m[32m**************************************[0m
+[05:00:38] [Server thread/INFO]: [1m[33mSinglePlayerSleep v1.13_2.13.45.2[0m is ENABLED
+[05:00:38] [Server thread/INFO]: [1m[32m**************************************[0m
+[05:00:38] [Server thread/INFO]: [1m[33mSinglePlayerSleep v1.13_2.13.45.2[0m This server is running Paper version git-Paper-504 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[05:00:38] [Server thread/INFO]: [1m[33mSinglePlayerSleep v1.13_2.13.45.2[0m vardebug=false debug=false in plugins/SinglePlayerSleep/config.yml
+[05:00:38] [Server thread/INFO]: [1m[33mSinglePlayerSleep v1.13_2.13.45.2[0m jarfilename=/home/phred7/Desktop/hardcore/plugins/SinglePlayerSleep-1.13_2.13.45.2.jar
+[05:00:38] [Server thread/INFO]: [Minetrends] Enabling Minetrends v2.0.2*
+[05:00:38] [Server thread/INFO]: <Minetrends> Checking for updates...
+[05:00:49] [Server thread/INFO]: -=-=-=-=-=- Minetrends -=-=-=-=-=-
+[05:00:49] [Server thread/INFO]: Success: Hardogre authenticated with Minetrends.
+[05:00:49] [Server thread/INFO]: Sending data every 10 minutes.
+[05:00:49] [Server thread/INFO]: -=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-
+[05:00:49] [Server thread/INFO]: Minetrends v2.0.2 has been enabled!
+[05:00:49] [Server thread/INFO]: Running delayed init tasks
+[05:00:49] [Server thread/INFO]: Done (20.634s)! For help, type "help"
+[05:00:49] [Server thread/INFO]: Timings Reset
+[05:00:52] [Server thread/INFO]: 
+[05:00:52] [Server thread/INFO]:  (UltimateAutoRestart) A new update is available!
+[05:00:52] [Server thread/INFO]:  Running on Build 40d while latest is Build 42a!
+[05:00:52] [Server thread/INFO]:  https://www.spigotmc.org/resources/64414/
+[05:00:52] [Server thread/INFO]:  https://www.mc-market.org/resources/9606/
+[05:00:52] [Server thread/INFO]: 
+[13:56:20] [Server thread/INFO]: Stopping the server
+[13:56:20] [Server thread/INFO]: Stopping server
+[13:56:20] [Server thread/INFO]: [Minetrends] Disabling Minetrends v2.0.2
+[13:56:20] [Server thread/INFO]: Minetrends v2.0.2 has been disabled!
+[13:56:20] [Server thread/INFO]: [SinglePlayerSleep] Disabling SinglePlayerSleep v1.13_2.13.45.2
+[13:56:20] [Server thread/INFO]: [1m[32m**************************************[0m
+[13:56:20] [Server thread/INFO]: [1m[33mSinglePlayerSleep v1.13_2.13.45.2[0m is DISABLED
+[13:56:20] [Server thread/INFO]: [1m[32m**************************************[0m
+[13:56:20] [Server thread/INFO]: [UltimateAutoRestart] Disabling UltimateAutoRestart vBuild 40d
+[13:56:20] [Server thread/INFO]: Saving players
+[13:56:20] [Server thread/INFO]: Saving worlds
+[13:56:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[hardogre]'/minecraft:overworld
+[13:56:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (hardogre): All chunks are saved
+[13:56:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[hardogre_nether]'/minecraft:the_nether
+[13:56:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:56:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[hardogre_the_end]'/minecraft:the_end
+[13:56:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:56:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (hardogre): All chunks are saved
+[13:56:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:56:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:56:20] [Server thread/INFO]: Flushing Chunk IO
+[13:56:20] [Server thread/INFO]: Closing Thread Pool
+[13:56:20] [Server thread/INFO]: Closing Server
