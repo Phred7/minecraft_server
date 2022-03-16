@@ -1,25 +1,25 @@
-[15:03:19] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[15:03:20] [Worker-Main-2/INFO]: Loaded 7 recipes
-[15:03:21] [Server thread/INFO]: Starting minecraft server version 1.18.2
-[15:03:21] [Server thread/INFO]: Loading properties
-[15:03:21] [Server thread/INFO]: This server is running Paper version git-Paper-255 (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT) (Git: f0d0078)
-[15:03:21] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:03:21] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:03:22] [Server thread/INFO]: Default game type: CREATIVE
-[15:03:22] [Server thread/INFO]: Generating keypair
-[15:03:22] [Server thread/INFO]: Starting Minecraft server on 192.168.1.148:25566
-[15:03:22] [Server thread/INFO]: Using epoll channel type
-[15:03:22] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[15:03:22] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[15:03:22] [Server thread/INFO]: [UltimateAutoRestart] Loading UltimateAutoRestart vBuild 52
-[15:03:22] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.9+e20e013
-[15:03:23] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@a46415b]
-[15:03:23] [Server thread/INFO]: [FastChunkPregenerator] Loading FastChunkPregenerator v2.0.6-SNAPSHOT
-[15:03:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:03:23] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.9+e20e013
-[15:03:23] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[15:03:23] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[15:03:23] [Server thread/WARN]: 
+[15:14:28] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:14:29] [Worker-Main-2/INFO]: Loaded 7 recipes
+[15:14:30] [Server thread/INFO]: Starting minecraft server version 1.18.2
+[15:14:30] [Server thread/INFO]: Loading properties
+[15:14:30] [Server thread/INFO]: This server is running Paper version git-Paper-255 (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT) (Git: f0d0078)
+[15:14:31] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:14:31] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:14:31] [Server thread/INFO]: Default game type: CREATIVE
+[15:14:31] [Server thread/INFO]: Generating keypair
+[15:14:31] [Server thread/INFO]: Starting Minecraft server on 192.168.1.148:25566
+[15:14:31] [Server thread/INFO]: Using epoll channel type
+[15:14:31] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[15:14:31] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[15:14:31] [Server thread/INFO]: [UltimateAutoRestart] Loading UltimateAutoRestart vBuild 52
+[15:14:31] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.9+e20e013
+[15:14:32] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@51dfb326]
+[15:14:32] [Server thread/INFO]: [FastChunkPregenerator] Loading FastChunkPregenerator v2.0.6-SNAPSHOT
+[15:14:32] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:14:32] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.9+e20e013
+[15:14:32] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[15:14:32] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[15:14:32] [Server thread/WARN]: 
 **********************************************
 ** This WorldEdit version does not fully support your version of Bukkit.
 **
@@ -30,41 +30,40 @@
 ** Please see https://worldedit.enginehub.org/en/latest/faq/#bukkit-adapters
 **********************************************
 
-[15:03:23] [Server thread/INFO]: Preparing level "albion"
-[15:03:24] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:03:24] [Server thread/INFO]: Time elapsed: 239 ms
-[15:03:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[15:03:24] [Server thread/INFO]: Time elapsed: 123 ms
-[15:03:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[15:03:25] [Server thread/INFO]: Time elapsed: 160 ms
-[15:03:25] [Server thread/INFO]: [UltimateAutoRestart] Enabling UltimateAutoRestart vBuild 52
-[15:03:25] [Server thread/INFO]: 
-[15:03:25] [Server thread/INFO]: [UltimateAutoRestart] Build 52, a free resource by Norska - Thanks for downloading!
-[15:03:25] [Server thread/INFO]: 
-[15:03:25] [Server thread/INFO]: [UltimateAutoRestart] Attempting hooks...
-[15:03:26] [Server thread/INFO]: [FastChunkPregenerator] Enabling FastChunkPregenerator v2.0.6-SNAPSHOT
-[15:03:26] [Server thread/INFO]: [FastChunkPregenerator] >> Paper was found.
-[15:03:26] [Server thread/INFO]: [FastChunkPregenerator] >> Async chunk loading support is enabled.
-[15:03:26] [Server thread/INFO]: Running delayed init tasks
-[15:03:26] [Server thread/INFO]: Done (4.684s)! For help, type "help"
-[15:03:26] [Server thread/INFO]: Timings Reset
-[15:03:29] [Server thread/INFO]: [UltimateAutoRestart] Did not find any plugins to hook into!
-[15:05:53] [Server thread/INFO]: [@: Set the time to 1000]
-[15:11:47] [Server thread/INFO]: Stopping the server
-[15:11:47] [Server thread/INFO]: Stopping server
-[15:11:47] [Server thread/INFO]: [FastChunkPregenerator] Disabling FastChunkPregenerator v2.0.6-SNAPSHOT
-[15:11:47] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.9+e20e013
-[15:11:47] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[15:11:47] [Server thread/INFO]: [UltimateAutoRestart] Disabling UltimateAutoRestart vBuild 52
-[15:11:47] [Server thread/INFO]: Saving players
-[15:11:48] [Server thread/INFO]: Saving worlds
-[15:11:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[albion]'/minecraft:overworld
-[15:11:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[albion_nether]'/minecraft:the_nether
-[15:11:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[albion_the_end]'/minecraft:the_end
-[15:11:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (albion): All chunks are saved
-[15:11:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15:11:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[15:11:49] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[15:11:49] [Server thread/INFO]: Flushing Chunk IO
-[15:11:49] [Server thread/INFO]: Closing Thread Pool
-[15:11:49] [Server thread/INFO]: Closing Server
+[15:14:32] [Server thread/INFO]: Preparing level "albion"
+[15:14:33] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:14:33] [Server thread/INFO]: Time elapsed: 266 ms
+[15:14:33] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[15:14:34] [Server thread/INFO]: Time elapsed: 136 ms
+[15:14:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[15:14:34] [Server thread/INFO]: Time elapsed: 153 ms
+[15:14:34] [Server thread/INFO]: [UltimateAutoRestart] Enabling UltimateAutoRestart vBuild 52
+[15:14:34] [Server thread/INFO]: 
+[15:14:34] [Server thread/INFO]: [UltimateAutoRestart] Build 52, a free resource by Norska - Thanks for downloading!
+[15:14:34] [Server thread/INFO]: 
+[15:14:34] [Server thread/INFO]: [UltimateAutoRestart] Attempting hooks...
+[15:14:35] [Server thread/INFO]: [FastChunkPregenerator] Enabling FastChunkPregenerator v2.0.6-SNAPSHOT
+[15:14:35] [Server thread/INFO]: [FastChunkPregenerator] >> Paper was found.
+[15:14:35] [Server thread/INFO]: [FastChunkPregenerator] >> Async chunk loading support is enabled.
+[15:14:35] [Server thread/INFO]: Running delayed init tasks
+[15:14:35] [Server thread/INFO]: Done (4.644s)! For help, type "help"
+[15:14:35] [Server thread/INFO]: Timings Reset
+[15:14:38] [Server thread/INFO]: [UltimateAutoRestart] Did not find any plugins to hook into!
+[15:14:40] [Server thread/INFO]: Stopping the server
+[15:14:41] [Server thread/INFO]: Stopping server
+[15:14:41] [Server thread/INFO]: [FastChunkPregenerator] Disabling FastChunkPregenerator v2.0.6-SNAPSHOT
+[15:14:41] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.9+e20e013
+[15:14:41] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[15:14:41] [Server thread/INFO]: [UltimateAutoRestart] Disabling UltimateAutoRestart vBuild 52
+[15:14:41] [Server thread/INFO]: Saving players
+[15:14:41] [Server thread/INFO]: Saving worlds
+[15:14:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[albion]'/minecraft:overworld
+[15:14:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[albion_nether]'/minecraft:the_nether
+[15:14:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[albion_the_end]'/minecraft:the_end
+[15:14:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (albion): All chunks are saved
+[15:14:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:14:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:14:42] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:14:42] [Server thread/INFO]: Flushing Chunk IO
+[15:14:42] [Server thread/INFO]: Closing Thread Pool
+[15:14:42] [Server thread/INFO]: Closing Server
