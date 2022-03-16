@@ -1,9 +1,9 @@
 #########################################################################################
 #                                                                                       #
-# UltimateAutoRestart, a free resource by Norska#1933 [ID: 253886847690866688]          #
+# UltimateAutoRestart, a free resource by Norska @ https://norska.dev                   #
 #                                                                                       #
-# Wiki: https://norska.dev/docs/welcome                                                 #
-# Support: https://norska.dev/discord                                                   #
+# Wiki: https://norska.dev/docs/welcome/                                                #
+# Support: https://norska.dev/discord/                                                  #
 #                                                                                       #
 # You are editing the sounds.yml file of UltimateAutoRestart.                           #
 #                                                                                       #
@@ -22,75 +22,128 @@
 #########################################################################################   
 
 sounds:
-
-   EVENT_INTERVAL_GLOBAL:
-      enabled: true
-      sound: 'ENTITY_PLAYER_LEVELUP'
-      volume: 1.0
-      pitch: 1.0
-   EVENT_RESTART_GLOBAL:
-      enabled: true
-      sound: 'ENTITY_PLAYER_LEVELUP'
-      volume: 2.0
-      pitch: 2.0
-   EVENT_RESTART_DELAY_GLOBAL:
-      enabled: true
-      sound: 'ENTITY_PLAYER_LEVELUP'
-      volume: 1.0
-      pitch: 1.0
-   EVENT_RESTART_DELAY_STAFF:
-      enabled: true
-      sound: 'ENTITY_PLAYER_LEVELUP'
-      volume: 1.0
-      pitch: 1.0
+  EVENT_INTERVAL_GLOBAL:
+    enabled: true
+    sound: ENTITY_PLAYER_LEVELUP
+    volume: 1.0
+    pitch: 1.0
+      
+  EVENT_RESTART_GLOBAL:
+    enabled: true
+    sound: ENTITY_PLAYER_LEVELUP
+    volume: 2.0
+    pitch: 2.0
+      
+  EVENT_RESTART_DELAY_GLOBAL:
+    enabled: true
+    sound: ENTITY_PLAYER_LEVELUP
+    volume: 1.0
+    pitch: 1.0
+      
+  EVENT_RESTART_DELAY_STAFF:
+    enabled: true
+    sound: ENTITY_PLAYER_LEVELUP
+    volume: 1.0
+    pitch: 1.0
       
    ###############################  
    
-   COMMAND_USER_VIEWINTERVAL:
-      enabled: true
-      sound: 'ENTITY_PLAYER_LEVELUP'
-      volume: 1.0
-      pitch: 1.0
+  COMMAND_USER_VIEWINTERVAL:
+    enabled: true
+    sound: ENTITY_PLAYER_LEVELUP
+    volume: 1.0
+    pitch: 1.0
+      
+   ###############################  
 
-   COMMAND_FORCE_RESTART:
-      enabled: true
-      sound: 'ENTITY_PLAYER_LEVELUP'
-      volume: 1.0
-      pitch: 1.0      
-   COMMAND_FORCE_RESTART_GLOBAL:
-      enabled: true
-      sound: 'ENTITY_PLAYER_LEVELUP'
-      volume: 1.0
-      pitch: 1.0        
-   COMMAND_FORCE_RESTART_INVALID:
-      enabled: true
-      sound: 'ENTITY_VILLAGER_NO'
-      volume: 1.0
-      pitch: 1.0       
+  COMMAND_FORCE_RESTART:
+    enabled: true
+    sound: ENTITY_PLAYER_LEVELUP
+    volume: 1.0
+    pitch: 1.0
       
-   COMMAND_STOP_RESTART:
-      enabled: true
-      sound: 'ENTITY_PLAYER_LEVELUP'
-      volume: 1.0
-      pitch: 1.0   
-   COMMAND_STOP_RESTART_GLOBAL:
-      enabled: true
-      sound: 'ENTITY_PLAYER_LEVELUP'
-      volume: 1.0
-      pitch: 1.0   
-   COMMAND_STOP_RESTART_FAIL:
-      enabled: true
-      sound: 'ENTITY_PLAYER_LEVELUP'
-      volume: 1.0
-      pitch: 1.0   
+  COMMAND_FORCE_RESTART_GLOBAL:
+    enabled: true
+    sound: ENTITY_PLAYER_LEVELUP
+    volume: 1.0
+    pitch: 1.0
+         
+  COMMAND_FORCE_RESTART_INVALID:
+    enabled: true
+    sound: ENTITY_VILLAGER_NO
+    volume: 1.0
+    pitch: 1.0
       
-   COMMAND_RELOAD:
-      enabled: true
-      sound: 'ENTITY_PLAYER_LEVELUP'
-      volume: 1.0
-      pitch: 1.0  
-   COMMAND_NOPERMISSION:
-      enabled: true
-      sound: 'ENTITY_VILLAGER_NO'
-      volume: 1.0
-      pitch: 1.0      
+   ###############################  
+
+  COMMAND_DELAY_RESTART:
+    enabled: true
+    sound: ENTITY_PLAYER_LEVELUP
+    volume: 1.0
+    pitch: 1.0
+      
+  COMMAND_DELAY_RESTART_GLOBAL:
+    enabled: true
+    sound: ENTITY_PLAYER_LEVELUP
+    volume: 1.0
+    pitch: 1.0
+         
+  COMMAND_DELAY_RESTART_INVALID:
+    enabled: true
+    sound: ENTITY_VILLAGER_NO
+    volume: 1.0
+    pitch: 1.0
+      
+  COMMAND_DELAY_RESTART_NOT_POSSIBLE:
+    enabled: true
+    sound: ENTITY_VILLAGER_NO
+    volume: 1.0
+    pitch: 1.0
+      
+   ###############################    
+      
+  COMMAND_STOP_RESTART:
+    enabled: true
+    sound: ENTITY_PLAYER_LEVELUP
+    volume: 1.0
+    pitch: 1.0
+      
+  COMMAND_STOP_RESTART_GLOBAL:
+    enabled: true
+    sound: ENTITY_PLAYER_LEVELUP
+    volume: 1.0
+    pitch: 1.0
+       
+  COMMAND_STOP_RESTART_FAIL:
+    enabled: true
+    sound: ENTITY_PLAYER_LEVELUP
+    volume: 1.0
+    pitch: 1.0
+      
+   ###############################  
+      
+  COMMAND_DEBUG_SUCCESS:
+    enabled: true
+    sound: ENTITY_PLAYER_LEVELUP
+    volume: 1.0
+    pitch: 1.0
+      
+  COMMAND_DEBUG_INVALID:
+    enabled: true
+    sound: ENTITY_VILLAGER_NO
+    volume: 1.0
+    pitch: 1.0
+    
+   ###############################        
+      
+  COMMAND_RELOAD:
+    enabled: true
+    sound: ENTITY_PLAYER_LEVELUP
+    volume: 1.0
+    pitch: 1.0
+      
+  COMMAND_NOPERMISSION:
+    enabled: true
+    sound: ENTITY_VILLAGER_NO
+    volume: 1.0
+    pitch: 1.0

@@ -4,17 +4,5 @@
     "name": "Phred7",
     "level": 4,
     "bypassesPlayerLimit": true
-  },
-  {
-    "uuid": "6e4e932f-009e-4276-8155-258c1a566a7b",
-    "name": "Nokazea",
-    "level": 4,
-    "bypassesPlayerLimit": false
-  },
-  {
-    "uuid": "b15d7724-475b-40ac-b8cc-760d09d5cf2d",
-    "name": "HDanKing17",
-    "level": 4,
-    "bypassesPlayerLimit": false
   }
 ]

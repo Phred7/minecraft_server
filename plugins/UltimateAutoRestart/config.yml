@@ -1,9 +1,9 @@
 #########################################################################################
 #                                                                                       #
-# UltimateAutoRestart, a free resource by Norska#1933 [ID: 253886847690866688]          #
+# UltimateAutoRestart, a free resource by Norska @ https://norska.dev                   #
 #                                                                                       #
-# Wiki: https://norska.dev/docs/welcome                                                 #
-# Support: https://norska.dev/discord                                                   #
+# Wiki: https://norska.dev/docs/welcome/                                                #
+# Support: https://norska.dev/discord/                                                  #
 #                                                                                       #
 # You are editing the config.yml file of UltimateAutoRestart.                           #
 #                                                                                       #
@@ -17,6 +17,15 @@
 # still require help, open a ticket on my discord server!                               #
 #                                                                                       #
 #########################################################################################
+
+# !!! IN ORDER TO RUN PROXY COMMANDS (Bungee or forks, and Velocity) YOU MUST INSTALL A SEPARATE
+# PLUGIN ON YOUR PROXY. PLEASE REFER TO UAR'S RESOURCE PAGE TO FIND THE CORRECT DOWNLOAD LINKS !!!
+
+##################################
+#                                #
+#         RESTART ENTRIES        #
+#                                #
+##################################
 
 settings:
   # Note: Visit the wiki for more information regarding all command types.
@@ -38,28 +47,14 @@ settings:
    # Note: Valid ranges -> Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday and 00;00 to 24;00.
    # Note: You can also use "Daily" instead of a specific day to restart daily at a set hour. Example: "Daily;05;00", will restart daily at 5 AM.
   restarts:
-  - Monday;00;00
-  - Monday;12;00
-  - Tuesday;00;00
-  - Tuesday;12;00
-  - Wednesday;00;00
-  - Wednesday;12;00
-  - Thursday;00;00
-  - Thursday;12;00
-  - Friday;00;00
-  - Friday;12;00
-  - Saturday;00;00
-  - Saturday;12;00
-  - Sunday;00;00
-  - Sunday;12;00
-  # - 'Daily;00;00'
+  - 'Daily;00;00'
+  - 'Daily;12;00'
 
     # Note: Configure the messages in UltimateAutoRestart's messages.yml file!
    #- 'Daily;00;00'
    
    # Note: Configure the messages in UltimateAutoRestart's messages.yml file!
   messageAtIntervals:
-  - '1800'
   - '600'
   - '60'
   - '30'
@@ -71,7 +66,6 @@ settings:
    
    # Note: Configure the sounds in UltimateAutoRestart's sound.yml file!
   soundAtIntervals:
-  - '1800'
   - '600'
   - '60'
   - '30'
@@ -84,12 +78,24 @@ settings:
    # Note: Instead of the interval, the below will show if the restart timer is not running!
   unscheduledIntervalValue: '&f&lN/A'
 
+##################################
+#                                #
+#         RESTART DELAY          #
+#                                #
+##################################
+
 # Note: Push back the restart if x players are currently on the server!
 delayRestart:
-  enabled: false
-  checkSecondsBeforeRestart: 30
-  minimumPlayers: 1
-  delayBySeconds: 600
+  enabled: true
+  checkSecondsBeforeRestart: 60
+  minimumPlayers: 3
+  delayBySeconds: 1800
+   
+##################################
+#                                #
+#    VALUE DISPLAY SETTINGS      #
+#                                #
+##################################    
 
 # Note: Configure how the interval shows up!   
 format:
@@ -102,6 +108,12 @@ format:
   days: 'D '
   day: 'D '
   splitter: 'and '
+
+##################################
+#                                #
+#    UPDATE NOTIFIER SETTINGS    #
+#                                #
+################################## 
 
 updates:
   notifications: true
