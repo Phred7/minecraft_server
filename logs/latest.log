@@ -1,2 +1,65 @@
-[00:00:11] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[00:00:11] [ServerMain/INFO]: Reloading ResourceManager: Default, bukkit
+[14:10:30] [ServerMain/ERROR]: Failed to load properties from file: server.properties
+[14:10:30] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14:10:30] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[14:10:31] [ServerMain/INFO]: Reloading ResourceManager: Default, bukkit
+[14:10:31] [Worker-Main-2/INFO]: Loaded 7 recipes
+[14:10:33] [Server thread/INFO]: Starting minecraft server version 1.18.1
+[14:10:33] [Server thread/WARN]: ****************************
+[14:10:33] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[14:10:33] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[14:10:33] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[14:10:33] [Server thread/WARN]: ****************************
+[14:10:33] [Server thread/INFO]: Loading properties
+[14:10:33] [Server thread/INFO]: This server is running Paper version git-Paper-200 (MC: 1.18.1) (Implementing API version 1.18.1-R0.1-SNAPSHOT) (Git: f5b9e07)
+[14:10:33] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:10:33] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:10:33] [Server thread/INFO]: Default game type: SURVIVAL
+[14:10:33] [Server thread/INFO]: Generating keypair
+[14:10:33] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:10:33] [Server thread/INFO]: Using epoll channel type
+[14:10:33] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[14:10:33] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[14:10:34] [Server thread/INFO]: [UltimateAutoRestart] Loading UltimateAutoRestart vBuild 44b
+[14:10:34] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.9+e20e013
+[14:10:34] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@6adc47ef]
+[14:10:34] [Server thread/INFO]: [FastChunkPregenerator] Loading FastChunkPregenerator v2.0.6-SNAPSHOT
+[14:10:34] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:10:34] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.9+e20e013
+[14:10:34] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[14:10:34] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[14:10:34] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_18_R1.PaperweightAdapter as the Bukkit adapter
+[14:10:35] [Server thread/INFO]: Preparing level "world"
+[14:10:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:10:43] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:10:43] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:10:43] [Server thread/INFO]: Time elapsed: 546 ms
+[14:10:43] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[14:10:44] [Server thread/INFO]: Time elapsed: 265 ms
+[14:10:44] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[14:10:44] [Server thread/INFO]: Time elapsed: 231 ms
+[14:10:44] [Server thread/INFO]: [UltimateAutoRestart] Enabling UltimateAutoRestart vBuild 44b
+[14:10:44] [Server thread/INFO]:  
+[14:10:44] [Server thread/INFO]: UltimateAutoRestart Build 44b, a free resource by Norska - Thanks for using!
+[14:10:44] [Server thread/INFO]:  
+[14:10:44] [Server thread/INFO]: [FastChunkPregenerator] Enabling FastChunkPregenerator v2.0.6-SNAPSHOT
+[14:10:44] [Server thread/INFO]: [FastChunkPregenerator] >> Paper was found.
+[14:10:44] [Server thread/INFO]: [FastChunkPregenerator] >> Async chunk loading support is enabled.
+[14:10:44] [Server thread/INFO]: Running delayed init tasks
+[14:10:44] [Server thread/INFO]: Done (11.966s)! For help, type "help"
+[14:10:44] [Server thread/INFO]: Timings Reset
+[14:10:47] [Server thread/INFO]: 
+[14:10:47] [Server thread/INFO]:  (UltimateAutoRestart) A new update is available!
+[14:10:47] [Server thread/INFO]:  Running on Build 44b while latest is Build 52!
+[14:10:47] [Server thread/INFO]:  https://www.spigotmc.org/resources/64414/
+[14:10:47] [Server thread/INFO]:  https://polymart.org/resource/35
+[14:10:47] [Server thread/INFO]: 
+[14:11:03] [Server thread/INFO]: Stopping the server
+[14:11:03] [Server thread/INFO]: Stopping server
+[14:11:03] [Server thread/INFO]: [FastChunkPregenerator] Disabling FastChunkPregenerator v2.0.6-SNAPSHOT
+[14:11:03] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.9+e20e013
+[14:11:03] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[14:11:03] [Server thread/INFO]: [UltimateAutoRestart] Disabling UltimateAutoRestart vBuild 44b
+[14:11:03] [Server thread/INFO]: Saving players
+[14:11:03] [Server thread/INFO]: Saving worlds
+[14:11:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14:11:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
