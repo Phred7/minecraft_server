@@ -1,0 +1,97 @@
+[14:33:30] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14:33:31] [Worker-Main-1/INFO]: Loaded 7 recipes
+[14:33:32] [Server thread/INFO]: Starting minecraft server version 1.18.2
+[14:33:32] [Server thread/INFO]: Loading properties
+[14:33:32] [Server thread/INFO]: This server is running Paper version git-Paper-255 (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT) (Git: f0d0078)
+[14:33:33] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:33:33] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:33:33] [Server thread/INFO]: Default game type: CREATIVE
+[14:33:33] [Server thread/INFO]: Generating keypair
+[14:33:33] [Server thread/INFO]: Starting Minecraft server on 192.168.1.148:25566
+[14:33:33] [Server thread/INFO]: Using epoll channel type
+[14:33:33] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[14:33:33] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[14:33:33] [Server thread/INFO]: [UltimateAutoRestart] Loading UltimateAutoRestart vBuild 44b
+[14:33:33] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.9+e20e013
+[14:33:34] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7a8dc0f4]
+[14:33:34] [Server thread/INFO]: [FastChunkPregenerator] Loading FastChunkPregenerator v2.0.6-SNAPSHOT
+[14:33:34] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:33:34] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.9+e20e013
+[14:33:34] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[14:33:34] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[14:33:34] [Server thread/WARN]: 
+**********************************************
+** This WorldEdit version does not fully support your version of Bukkit.
+**
+** When working with blocks or undoing, chests will be empty, signs
+** will be blank, and so on. There will be no support for entity
+** and block property-related functions.
+**
+** Please see https://worldedit.enginehub.org/en/latest/faq/#bukkit-adapters
+**********************************************
+
+[14:33:34] [Server thread/INFO]: Preparing level "albion"
+[14:33:35] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:33:35] [Server thread/INFO]: Time elapsed: 264 ms
+[14:33:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[14:33:35] [Server thread/INFO]: Time elapsed: 153 ms
+[14:33:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[14:33:36] [Server thread/INFO]: Time elapsed: 227 ms
+[14:33:36] [Server thread/INFO]: [UltimateAutoRestart] Enabling UltimateAutoRestart vBuild 44b
+[14:33:36] [Server thread/INFO]:  
+[14:33:36] [Server thread/INFO]: UltimateAutoRestart Build 44b, a free resource by Norska - Thanks for using!
+[14:33:36] [Server thread/INFO]:  
+[14:33:36] [Server thread/INFO]: [FastChunkPregenerator] Enabling FastChunkPregenerator v2.0.6-SNAPSHOT
+[14:33:36] [Server thread/INFO]: [FastChunkPregenerator] >> Paper was found.
+[14:33:36] [Server thread/INFO]: [FastChunkPregenerator] >> Async chunk loading support is enabled.
+[14:33:36] [Server thread/INFO]: Running delayed init tasks
+[14:33:36] [Server thread/INFO]: Done (4.171s)! For help, type "help"
+[14:33:36] [Server thread/INFO]: Timings Reset
+[14:33:39] [Server thread/INFO]: 
+[14:33:39] [Server thread/INFO]:  (UltimateAutoRestart) A new update is available!
+[14:33:39] [Server thread/INFO]:  Running on Build 44b while latest is Build 52!
+[14:33:39] [Server thread/INFO]:  https://www.spigotmc.org/resources/64414/
+[14:33:39] [Server thread/INFO]:  https://polymart.org/resource/35
+[14:33:39] [Server thread/INFO]: 
+[14:35:00] [User Authenticator #1/INFO]: UUID of player Phred7 is b8bed4fd-6c2f-4f4f-a216-118ed8719365
+[14:35:00] [Server thread/INFO]: Phred7 joined the game
+[14:35:00] [Server thread/INFO]: Phred7[/208.78.42.220:52631] logged in with entity id 55 at ([albion]-61.619260657859435, -60.0, -79.23953146556036)
+[14:35:23] [Server thread/INFO]: Phred7 issued server command: /give @p minecraft:command_block
+[14:35:23] [Server thread/INFO]: [Phred7: Gave 1 [Command Block] to Phred7]
+[14:35:39] [Server thread/INFO]: [@: Set the weather to clear]
+[14:36:05] [Server thread/INFO]: [@: Set the weather to clear]
+[14:37:28] [Server thread/INFO]: Phred7 issued server command: /time set night
+[14:37:28] [Server thread/INFO]: [Phred7: Set the time to 13000]
+[14:37:29] [Server thread/INFO]: [@: Set the time to 1000]
+[14:38:28] [Server thread/INFO]: Phred7 issued server command: /time set night
+[14:38:28] [Server thread/INFO]: [Phred7: Set the time to 13000]
+[14:38:28] [Server thread/INFO]: [@: Set the time to 1000]
+[14:38:29] [Server thread/INFO]: [@: Set the weather to clear]
+[14:38:35] [Server thread/INFO]: Phred7 issued server command: /weather thunder
+[14:38:35] [Server thread/INFO]: [Phred7: Set the weather to rain & thunder]
+[14:38:37] [Server thread/INFO]: [@: Set the time to 1000]
+[14:38:37] [Server thread/INFO]: [@: Set the weather to clear]
+[14:38:44] [Server thread/INFO]: Phred7 issued server command: /weather rain
+[14:38:44] [Server thread/INFO]: [Phred7: Set the weather to rain]
+[14:38:45] [Server thread/INFO]: [@: Set the time to 1000]
+[14:38:47] [Server thread/INFO]: [@: Set the weather to clear]
+[14:38:59] [Server thread/INFO]: Phred7 lost connection: Disconnected
+[14:38:59] [Server thread/INFO]: Phred7 left the game
+[14:39:06] [Server thread/INFO]: Stopping the server
+[14:39:06] [Server thread/INFO]: Stopping server
+[14:39:06] [Server thread/INFO]: [FastChunkPregenerator] Disabling FastChunkPregenerator v2.0.6-SNAPSHOT
+[14:39:06] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.9+e20e013
+[14:39:06] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[14:39:06] [Server thread/INFO]: [UltimateAutoRestart] Disabling UltimateAutoRestart vBuild 44b
+[14:39:06] [Server thread/INFO]: Saving players
+[14:39:06] [Server thread/INFO]: Saving worlds
+[14:39:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[albion]'/minecraft:overworld
+[14:39:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[albion_nether]'/minecraft:the_nether
+[14:39:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[albion_the_end]'/minecraft:the_end
+[14:39:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (albion): All chunks are saved
+[14:39:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:39:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:39:09] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14:39:10] [Server thread/INFO]: Flushing Chunk IO
+[14:39:10] [Server thread/INFO]: Closing Thread Pool
+[14:39:10] [Server thread/INFO]: Closing Server
