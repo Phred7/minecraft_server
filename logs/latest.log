@@ -1,21 +1,155 @@
-[00:00:00] [pool-6-thread-1/INFO]: UltimateAutoRestart » Restarting in 1s!
-[00:00:03] [Server thread/INFO]: Saving the game (this may take a moment!)
-[00:00:03] [Server thread/INFO]: Saved the game
-[00:00:03] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
-[00:00:03] [Server thread/INFO]: Stopping server
-[00:00:03] [Server thread/INFO]: [FastChunkPregenerator] Disabling FastChunkPregenerator v2.0.6-SNAPSHOT
-[00:00:03] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.9+e20e013
-[00:00:03] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[00:00:03] [Server thread/INFO]: [UltimateAutoRestart] Disabling UltimateAutoRestart vBuild 52
-[00:00:03] [Server thread/INFO]: Saving players
-[00:00:03] [Server thread/INFO]: Saving worlds
-[00:00:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[albion]'/minecraft:overworld
-[00:00:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[albion_nether]'/minecraft:the_nether
-[00:00:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[albion_the_end]'/minecraft:the_end
-[00:00:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (albion): All chunks are saved
-[00:00:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:00:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:00:04] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[00:00:04] [Server thread/INFO]: Flushing Chunk IO
-[00:00:04] [Server thread/INFO]: Closing Thread Pool
-[00:00:04] [Server thread/INFO]: Closing Server
+[00:00:20] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[00:00:22] [Worker-Main-2/INFO]: Loaded 7 recipes
+[00:00:23] [Server thread/INFO]: Starting minecraft server version 1.18.2
+[00:00:23] [Server thread/INFO]: Loading properties
+[00:00:23] [Server thread/INFO]: This server is running Paper version git-Paper-255 (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT) (Git: f0d0078)
+[00:00:23] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:00:23] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:00:23] [Server thread/INFO]: Default game type: CREATIVE
+[00:00:23] [Server thread/INFO]: Generating keypair
+[00:00:23] [Server thread/INFO]: Starting Minecraft server on 192.168.1.148:25566
+[00:00:23] [Server thread/INFO]: Using epoll channel type
+[00:00:23] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[00:00:23] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[00:00:24] [Server thread/INFO]: [UltimateAutoRestart] Loading UltimateAutoRestart vBuild 52
+[00:00:24] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.9+e20e013
+[00:00:24] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@771efcbd]
+[00:00:24] [Server thread/INFO]: [FastChunkPregenerator] Loading FastChunkPregenerator v2.0.6-SNAPSHOT
+[00:00:24] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:00:24] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.9+e20e013
+[00:00:24] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[00:00:24] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[00:00:25] [Server thread/WARN]: 
+**********************************************
+** This WorldEdit version does not fully support your version of Bukkit.
+**
+** When working with blocks or undoing, chests will be empty, signs
+** will be blank, and so on. There will be no support for entity
+** and block property-related functions.
+**
+** Please see https://worldedit.enginehub.org/en/latest/faq/#bukkit-adapters
+**********************************************
+
+[00:00:25] [Server thread/INFO]: Preparing level "albion"
+[00:00:26] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:00:26] [Server thread/INFO]: Time elapsed: 255 ms
+[00:00:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[00:00:26] [Server thread/INFO]: Time elapsed: 126 ms
+[00:00:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[00:00:26] [Server thread/INFO]: Time elapsed: 159 ms
+[00:00:26] [Server thread/INFO]: [UltimateAutoRestart] Enabling UltimateAutoRestart vBuild 52
+[00:00:26] [Server thread/INFO]: 
+[00:00:26] [Server thread/INFO]: [UltimateAutoRestart] Build 52, a free resource by Norska - Thanks for downloading!
+[00:00:26] [Server thread/INFO]: 
+[00:00:26] [Server thread/INFO]: [UltimateAutoRestart] Attempting hooks...
+[00:00:27] [Server thread/INFO]: [FastChunkPregenerator] Enabling FastChunkPregenerator v2.0.6-SNAPSHOT
+[00:00:27] [Server thread/INFO]: [FastChunkPregenerator] >> Paper was found.
+[00:00:27] [Server thread/INFO]: [FastChunkPregenerator] >> Async chunk loading support is enabled.
+[00:00:28] [Server thread/INFO]: Running delayed init tasks
+[00:00:28] [Server thread/INFO]: Done (4.590s)! For help, type "help"
+[00:00:28] [Server thread/INFO]: Timings Reset
+[00:00:31] [Server thread/INFO]: [UltimateAutoRestart] Did not find any plugins to hook into!
+[00:03:04] [Server thread/INFO]: [@: Set the time to 1000]
+[00:12:17] [Server thread/INFO]: [@: Set the time to 1000]
+[00:21:30] [Server thread/INFO]: [@: Set the time to 1000]
+[00:30:43] [Server thread/INFO]: [@: Set the time to 1000]
+[00:39:56] [Server thread/INFO]: [@: Set the time to 1000]
+[00:49:09] [Server thread/INFO]: [@: Set the time to 1000]
+[00:58:22] [Server thread/INFO]: [@: Set the time to 1000]
+[01:07:35] [Server thread/INFO]: [@: Set the time to 1000]
+[01:16:48] [Server thread/INFO]: [@: Set the time to 1000]
+[01:26:01] [Server thread/INFO]: [@: Set the time to 1000]
+[01:35:14] [Server thread/INFO]: [@: Set the time to 1000]
+[01:44:27] [Server thread/INFO]: [@: Set the time to 1000]
+[01:53:40] [Server thread/INFO]: [@: Set the time to 1000]
+[02:02:53] [Server thread/INFO]: [@: Set the time to 1000]
+[02:12:06] [Server thread/INFO]: [@: Set the time to 1000]
+[02:21:19] [Server thread/INFO]: [@: Set the time to 1000]
+[02:30:32] [Server thread/INFO]: [@: Set the time to 1000]
+[02:39:45] [Server thread/INFO]: [@: Set the time to 1000]
+[02:48:58] [Server thread/INFO]: [@: Set the time to 1000]
+[02:58:11] [Server thread/INFO]: [@: Set the time to 1000]
+[03:07:24] [Server thread/INFO]: [@: Set the time to 1000]
+[03:16:37] [Server thread/INFO]: [@: Set the time to 1000]
+[03:25:50] [Server thread/INFO]: [@: Set the time to 1000]
+[03:35:03] [Server thread/INFO]: [@: Set the time to 1000]
+[03:44:16] [Server thread/INFO]: [@: Set the time to 1000]
+[03:53:29] [Server thread/INFO]: [@: Set the time to 1000]
+[04:02:42] [Server thread/INFO]: [@: Set the time to 1000]
+[04:11:55] [Server thread/INFO]: [@: Set the time to 1000]
+[04:21:08] [Server thread/INFO]: [@: Set the time to 1000]
+[04:30:21] [Server thread/INFO]: [@: Set the time to 1000]
+[04:39:34] [Server thread/INFO]: [@: Set the time to 1000]
+[04:48:47] [Server thread/INFO]: [@: Set the time to 1000]
+[04:58:00] [Server thread/INFO]: [@: Set the time to 1000]
+[05:07:13] [Server thread/INFO]: [@: Set the time to 1000]
+[05:16:26] [Server thread/INFO]: [@: Set the time to 1000]
+[05:25:39] [Server thread/INFO]: [@: Set the time to 1000]
+[05:34:52] [Server thread/INFO]: [@: Set the time to 1000]
+[05:44:05] [Server thread/INFO]: [@: Set the time to 1000]
+[05:53:18] [Server thread/INFO]: [@: Set the time to 1000]
+[06:02:31] [Server thread/INFO]: [@: Set the time to 1000]
+[06:11:44] [Server thread/INFO]: [@: Set the time to 1000]
+[06:20:57] [Server thread/INFO]: [@: Set the time to 1000]
+[06:30:10] [Server thread/INFO]: [@: Set the time to 1000]
+[06:39:23] [Server thread/INFO]: [@: Set the time to 1000]
+[06:48:36] [Server thread/INFO]: [@: Set the time to 1000]
+[06:57:49] [Server thread/INFO]: [@: Set the time to 1000]
+[07:07:02] [Server thread/INFO]: [@: Set the time to 1000]
+[07:16:15] [Server thread/INFO]: [@: Set the time to 1000]
+[07:25:28] [Server thread/INFO]: [@: Set the time to 1000]
+[07:34:41] [Server thread/INFO]: [@: Set the time to 1000]
+[07:43:54] [Server thread/INFO]: [@: Set the time to 1000]
+[07:53:07] [Server thread/INFO]: [@: Set the time to 1000]
+[08:02:20] [Server thread/INFO]: [@: Set the time to 1000]
+[08:11:33] [Server thread/INFO]: [@: Set the time to 1000]
+[08:20:46] [Server thread/INFO]: [@: Set the time to 1000]
+[08:29:59] [Server thread/INFO]: [@: Set the time to 1000]
+[08:39:12] [Server thread/INFO]: [@: Set the time to 1000]
+[08:48:25] [Server thread/INFO]: [@: Set the time to 1000]
+[08:57:38] [Server thread/INFO]: [@: Set the time to 1000]
+[09:06:51] [Server thread/INFO]: [@: Set the time to 1000]
+[09:16:04] [Server thread/INFO]: [@: Set the time to 1000]
+[09:25:17] [Server thread/INFO]: [@: Set the time to 1000]
+[09:34:30] [Server thread/INFO]: [@: Set the time to 1000]
+[09:43:43] [Server thread/INFO]: [@: Set the time to 1000]
+[09:52:56] [Server thread/INFO]: [@: Set the time to 1000]
+[10:02:09] [Server thread/INFO]: [@: Set the time to 1000]
+[10:11:22] [Server thread/INFO]: [@: Set the time to 1000]
+[10:20:35] [Server thread/INFO]: [@: Set the time to 1000]
+[10:29:48] [Server thread/INFO]: [@: Set the time to 1000]
+[10:39:01] [Server thread/INFO]: [@: Set the time to 1000]
+[10:48:14] [Server thread/INFO]: [@: Set the time to 1000]
+[10:57:27] [Server thread/INFO]: [@: Set the time to 1000]
+[11:06:40] [Server thread/INFO]: [@: Set the time to 1000]
+[11:15:53] [Server thread/INFO]: [@: Set the time to 1000]
+[11:25:06] [Server thread/INFO]: [@: Set the time to 1000]
+[11:34:19] [Server thread/INFO]: [@: Set the time to 1000]
+[11:43:32] [Server thread/INFO]: [@: Set the time to 1000]
+[11:50:00] [pool-6-thread-1/INFO]: UltimateAutoRestart » Restarting in 10m!
+[11:52:45] [Server thread/INFO]: [@: Set the time to 1000]
+[11:59:00] [pool-6-thread-1/INFO]: UltimateAutoRestart » Restarting in 1m!
+[11:59:30] [pool-6-thread-1/INFO]: UltimateAutoRestart » Restarting in 30s!
+[11:59:57] [pool-6-thread-1/INFO]: UltimateAutoRestart » Restarting in 3s!
+[11:59:58] [pool-6-thread-1/INFO]: UltimateAutoRestart » Restarting in 2s!
+[11:59:59] [pool-6-thread-1/INFO]: UltimateAutoRestart » Restarting in 1s!
+[12:00:02] [Server thread/INFO]: Saving the game (this may take a moment!)
+[12:00:02] [Server thread/INFO]: Saved the game
+[12:00:02] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
+[12:00:02] [Server thread/INFO]: Stopping server
+[12:00:02] [Server thread/INFO]: [FastChunkPregenerator] Disabling FastChunkPregenerator v2.0.6-SNAPSHOT
+[12:00:02] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.9+e20e013
+[12:00:02] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[12:00:02] [Server thread/INFO]: [UltimateAutoRestart] Disabling UltimateAutoRestart vBuild 52
+[12:00:02] [Server thread/INFO]: Saving players
+[12:00:02] [Server thread/INFO]: Saving worlds
+[12:00:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[albion]'/minecraft:overworld
+[12:00:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[albion_nether]'/minecraft:the_nether
+[12:00:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[albion_the_end]'/minecraft:the_end
+[12:00:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (albion): All chunks are saved
+[12:00:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:00:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:00:03] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[12:00:04] [Server thread/INFO]: Flushing Chunk IO
+[12:00:04] [Server thread/INFO]: Closing Thread Pool
+[12:00:04] [Server thread/INFO]: Closing Server
