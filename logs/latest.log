@@ -1,162 +1,21 @@
-[00:00:20] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[00:00:22] [Worker-Main-1/INFO]: Loaded 7 recipes
-[00:00:23] [Server thread/INFO]: Starting minecraft server version 1.18.2
-[00:00:23] [Server thread/INFO]: Loading properties
-[00:00:23] [Server thread/INFO]: This server is running Paper version git-Paper-255 (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT) (Git: f0d0078)
-[00:00:23] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[00:00:23] [Server thread/INFO]: Using 4 threads for Netty based IO
-[00:00:23] [Server thread/INFO]: Default game type: CREATIVE
-[00:00:23] [Server thread/INFO]: Generating keypair
-[00:00:23] [Server thread/INFO]: Starting Minecraft server on 192.168.1.148:25566
-[00:00:23] [Server thread/INFO]: Using epoll channel type
-[00:00:23] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[00:00:23] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[00:00:24] [Server thread/INFO]: [UltimateAutoRestart] Loading UltimateAutoRestart vBuild 52
-[00:00:24] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.9+e20e013
-[00:00:24] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3f709319]
-[00:00:24] [Server thread/INFO]: [FastChunkPregenerator] Loading FastChunkPregenerator v2.0.6-SNAPSHOT
-[00:00:24] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[00:00:24] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.9+e20e013
-[00:00:24] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[00:00:24] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[00:00:25] [Server thread/WARN]: 
-**********************************************
-** This WorldEdit version does not fully support your version of Bukkit.
-**
-** When working with blocks or undoing, chests will be empty, signs
-** will be blank, and so on. There will be no support for entity
-** and block property-related functions.
-**
-** Please see https://worldedit.enginehub.org/en/latest/faq/#bukkit-adapters
-**********************************************
-
-[00:00:25] [Server thread/INFO]: Preparing level "albion"
-[00:00:26] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:00:26] [Server thread/INFO]: Time elapsed: 250 ms
-[00:00:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[00:00:26] [Server thread/INFO]: Time elapsed: 154 ms
-[00:00:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[00:00:26] [Server thread/INFO]: Time elapsed: 155 ms
-[00:00:26] [Server thread/INFO]: [UltimateAutoRestart] Enabling UltimateAutoRestart vBuild 52
-[00:00:26] [Server thread/INFO]: 
-[00:00:26] [Server thread/INFO]: [UltimateAutoRestart] Build 52, a free resource by Norska - Thanks for downloading!
-[00:00:26] [Server thread/INFO]: 
-[00:00:26] [Server thread/INFO]: [UltimateAutoRestart] Attempting hooks...
-[00:00:27] [Server thread/INFO]: [FastChunkPregenerator] Enabling FastChunkPregenerator v2.0.6-SNAPSHOT
-[00:00:27] [Server thread/INFO]: [FastChunkPregenerator] >> Paper was found.
-[00:00:27] [Server thread/INFO]: [FastChunkPregenerator] >> Async chunk loading support is enabled.
-[00:00:28] [Server thread/INFO]: Running delayed init tasks
-[00:00:28] [Server thread/INFO]: Done (4.808s)! For help, type "help"
-[00:00:28] [Server thread/INFO]: Timings Reset
-[00:00:31] [Server thread/INFO]: [UltimateAutoRestart] Did not find any plugins to hook into!
-[00:00:33] [Server thread/INFO]:  
-[00:00:33] [Server thread/INFO]:  [UltimateAutoRestart] New update available!
-[00:00:33] [Server thread/INFO]:  Current version: Build 52 with latest being Build 52a!
-[00:00:33] [Server thread/INFO]:  
-[00:00:33] [Server thread/INFO]:  SpigotMC -> https://norska.dev/r/spigot/uar/
-[00:00:33] [Server thread/INFO]:  Polymart -> https://norska.dev/r/polymart/uar/
-[00:00:33] [Server thread/INFO]:  
-[00:01:54] [Server thread/INFO]: [@: Set the time to 1000]
-[00:11:07] [Server thread/INFO]: [@: Set the time to 1000]
-[00:20:20] [Server thread/INFO]: [@: Set the time to 1000]
-[00:29:33] [Server thread/INFO]: [@: Set the time to 1000]
-[00:38:46] [Server thread/INFO]: [@: Set the time to 1000]
-[00:47:59] [Server thread/INFO]: [@: Set the time to 1000]
-[00:57:12] [Server thread/INFO]: [@: Set the time to 1000]
-[01:06:25] [Server thread/INFO]: [@: Set the time to 1000]
-[01:15:38] [Server thread/INFO]: [@: Set the time to 1000]
-[01:24:51] [Server thread/INFO]: [@: Set the time to 1000]
-[01:34:04] [Server thread/INFO]: [@: Set the time to 1000]
-[01:43:17] [Server thread/INFO]: [@: Set the time to 1000]
-[01:52:30] [Server thread/INFO]: [@: Set the time to 1000]
-[02:01:43] [Server thread/INFO]: [@: Set the time to 1000]
-[02:10:56] [Server thread/INFO]: [@: Set the time to 1000]
-[02:20:09] [Server thread/INFO]: [@: Set the time to 1000]
-[02:29:22] [Server thread/INFO]: [@: Set the time to 1000]
-[02:38:35] [Server thread/INFO]: [@: Set the time to 1000]
-[02:47:48] [Server thread/INFO]: [@: Set the time to 1000]
-[02:57:01] [Server thread/INFO]: [@: Set the time to 1000]
-[03:06:14] [Server thread/INFO]: [@: Set the time to 1000]
-[03:15:27] [Server thread/INFO]: [@: Set the time to 1000]
-[03:24:40] [Server thread/INFO]: [@: Set the time to 1000]
-[03:33:53] [Server thread/INFO]: [@: Set the time to 1000]
-[03:43:06] [Server thread/INFO]: [@: Set the time to 1000]
-[03:52:19] [Server thread/INFO]: [@: Set the time to 1000]
-[04:01:32] [Server thread/INFO]: [@: Set the time to 1000]
-[04:10:45] [Server thread/INFO]: [@: Set the time to 1000]
-[04:19:58] [Server thread/INFO]: [@: Set the time to 1000]
-[04:29:11] [Server thread/INFO]: [@: Set the time to 1000]
-[04:38:24] [Server thread/INFO]: [@: Set the time to 1000]
-[04:47:37] [Server thread/INFO]: [@: Set the time to 1000]
-[04:56:50] [Server thread/INFO]: [@: Set the time to 1000]
-[05:06:03] [Server thread/INFO]: [@: Set the time to 1000]
-[05:15:16] [Server thread/INFO]: [@: Set the time to 1000]
-[05:24:29] [Server thread/INFO]: [@: Set the time to 1000]
-[05:33:42] [Server thread/INFO]: [@: Set the time to 1000]
-[05:42:55] [Server thread/INFO]: [@: Set the time to 1000]
-[05:52:08] [Server thread/INFO]: [@: Set the time to 1000]
-[06:01:21] [Server thread/INFO]: [@: Set the time to 1000]
-[06:10:34] [Server thread/INFO]: [@: Set the time to 1000]
-[06:19:47] [Server thread/INFO]: [@: Set the time to 1000]
-[06:29:00] [Server thread/INFO]: [@: Set the time to 1000]
-[06:38:13] [Server thread/INFO]: [@: Set the time to 1000]
-[06:47:26] [Server thread/INFO]: [@: Set the time to 1000]
-[06:56:39] [Server thread/INFO]: [@: Set the time to 1000]
-[07:05:52] [Server thread/INFO]: [@: Set the time to 1000]
-[07:15:05] [Server thread/INFO]: [@: Set the time to 1000]
-[07:24:18] [Server thread/INFO]: [@: Set the time to 1000]
-[07:33:31] [Server thread/INFO]: [@: Set the time to 1000]
-[07:42:44] [Server thread/INFO]: [@: Set the time to 1000]
-[07:51:57] [Server thread/INFO]: [@: Set the time to 1000]
-[08:01:10] [Server thread/INFO]: [@: Set the time to 1000]
-[08:10:23] [Server thread/INFO]: [@: Set the time to 1000]
-[08:19:36] [Server thread/INFO]: [@: Set the time to 1000]
-[08:28:49] [Server thread/INFO]: [@: Set the time to 1000]
-[08:38:02] [Server thread/INFO]: [@: Set the time to 1000]
-[08:47:15] [Server thread/INFO]: [@: Set the time to 1000]
-[08:56:28] [Server thread/INFO]: [@: Set the time to 1000]
-[09:05:41] [Server thread/INFO]: [@: Set the time to 1000]
-[09:14:54] [Server thread/INFO]: [@: Set the time to 1000]
-[09:24:07] [Server thread/INFO]: [@: Set the time to 1000]
-[09:33:20] [Server thread/INFO]: [@: Set the time to 1000]
-[09:42:33] [Server thread/INFO]: [@: Set the time to 1000]
-[09:51:46] [Server thread/INFO]: [@: Set the time to 1000]
-[10:00:59] [Server thread/INFO]: [@: Set the time to 1000]
-[10:10:12] [Server thread/INFO]: [@: Set the time to 1000]
-[10:19:25] [Server thread/INFO]: [@: Set the time to 1000]
-[10:28:38] [Server thread/INFO]: [@: Set the time to 1000]
-[10:37:51] [Server thread/INFO]: [@: Set the time to 1000]
-[10:47:04] [Server thread/INFO]: [@: Set the time to 1000]
-[10:56:17] [Server thread/INFO]: [@: Set the time to 1000]
-[11:05:30] [Server thread/INFO]: [@: Set the time to 1000]
-[11:14:43] [Server thread/INFO]: [@: Set the time to 1000]
-[11:23:56] [Server thread/INFO]: [@: Set the time to 1000]
-[11:33:09] [Server thread/INFO]: [@: Set the time to 1000]
-[11:42:22] [Server thread/INFO]: [@: Set the time to 1000]
-[11:50:00] [pool-6-thread-1/INFO]: UltimateAutoRestart » Restarting in 10m!
-[11:51:35] [Server thread/INFO]: [@: Set the time to 1000]
-[11:59:00] [pool-6-thread-1/INFO]: UltimateAutoRestart » Restarting in 1m!
-[11:59:30] [pool-6-thread-1/INFO]: UltimateAutoRestart » Restarting in 30s!
-[11:59:57] [pool-6-thread-1/INFO]: UltimateAutoRestart » Restarting in 3s!
-[11:59:58] [pool-6-thread-1/INFO]: UltimateAutoRestart » Restarting in 2s!
-[11:59:59] [pool-6-thread-1/INFO]: UltimateAutoRestart » Restarting in 1s!
-[12:00:02] [Server thread/INFO]: Saving the game (this may take a moment!)
-[12:00:02] [Server thread/INFO]: Saved the game
-[12:00:02] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
-[12:00:02] [Server thread/INFO]: Stopping server
-[12:00:02] [Server thread/INFO]: [FastChunkPregenerator] Disabling FastChunkPregenerator v2.0.6-SNAPSHOT
-[12:00:02] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.9+e20e013
-[12:00:02] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[12:00:02] [Server thread/INFO]: [UltimateAutoRestart] Disabling UltimateAutoRestart vBuild 52
-[12:00:02] [Server thread/INFO]: Saving players
-[12:00:02] [Server thread/INFO]: Saving worlds
-[12:00:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[albion]'/minecraft:overworld
-[12:00:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[albion_nether]'/minecraft:the_nether
-[12:00:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[albion_the_end]'/minecraft:the_end
-[12:00:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (albion): All chunks are saved
-[12:00:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[12:00:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[12:00:03] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[12:00:04] [Server thread/INFO]: Flushing Chunk IO
-[12:00:04] [Server thread/INFO]: Closing Thread Pool
-[12:00:04] [Server thread/INFO]: Closing Server
+[00:00:00] [pool-6-thread-1/INFO]: UltimateAutoRestart » Restarting in 1s!
+[00:00:03] [Server thread/INFO]: Saving the game (this may take a moment!)
+[00:00:03] [Server thread/INFO]: Saved the game
+[00:00:03] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
+[00:00:03] [Server thread/INFO]: Stopping server
+[00:00:03] [Server thread/INFO]: [FastChunkPregenerator] Disabling FastChunkPregenerator v2.0.6-SNAPSHOT
+[00:00:03] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.9+e20e013
+[00:00:03] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[00:00:03] [Server thread/INFO]: [UltimateAutoRestart] Disabling UltimateAutoRestart vBuild 52
+[00:00:03] [Server thread/INFO]: Saving players
+[00:00:03] [Server thread/INFO]: Saving worlds
+[00:00:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[albion]'/minecraft:overworld
+[00:00:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[albion_nether]'/minecraft:the_nether
+[00:00:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[albion_the_end]'/minecraft:the_end
+[00:00:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (albion): All chunks are saved
+[00:00:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:00:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:00:05] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:00:05] [Server thread/INFO]: Flushing Chunk IO
+[00:00:05] [Server thread/INFO]: Closing Thread Pool
+[00:00:05] [Server thread/INFO]: Closing Server
