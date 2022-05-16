@@ -42,18 +42,20 @@ def backup_to_github() -> None:
 
 
 def git_commit_added(*, message: str = '') -> None:
+    print("*************** Commiting ***************")
     subprocess.call(["git", "commit", "-am", f"{'auto generated commit' if message == '' else message}"])
+    print("*************** Done Commiting ***************\n")
 
 
 def git_push() -> None:
     print("*************** Pushing ***************")
     subprocess.call(["git", "push"])
-    print("*************** Done Pushing ***************")
+    print("*************** Done Pushing ***************\n")
 
 def git_pull() -> None:
     print("*************** Pulling ***************")
     subprocess.call(["git", "pull"])
-    print("*************** Done Pulling ***************")
+    print("*************** Done Pulling ***************\n")
 
 def git_add_all(verbose: bool) -> None:
     os.system(f"git add -A {'--verbose' if verbose else ''}")
