@@ -31,10 +31,11 @@ timings:
   history-interval: 300
   history-length: 3600
   server-name: Unknown Server
-config-version: 25
+config-version: 27
 settings:
   use-dimension-type-for-custom-spawners: false
   chunk-loading:
+    player-max-chunk-load-rate: -1.0
     min-load-radius: 2
     max-concurrent-sends: 2
     autoconfig-send-distance: true
@@ -171,6 +172,12 @@ world-settings:
       spawn-chance-min: 25
       spawn-chance-max: 75
     door-breaking-difficulty:
+      zombie_villager:
+      - HARD
+      husk:
+      - HARD
+      zombified_piglin:
+      - HARD
       zombie:
       - HARD
       vindicator:
@@ -263,7 +270,6 @@ world-settings:
     treasure-maps-return-already-discovered: false
     water-over-lava-flow-speed: 5
     grass-spread-tick-rate: 1
-    use-faster-eigencraft-redstone: false
     nether-ceiling-void-damage-height: 0
     only-players-collide: false
     allow-vehicle-collisions: true
@@ -350,7 +356,7 @@ world-settings:
     alt-item-despawn-rate:
       enabled: false
       items:
-        COBBLESTONE: 300
+        cobblestone: 300
     tick-rates:
       sensor:
         villager:
@@ -360,3 +366,4 @@ world-settings:
           validatenearbypoi: -1
     feature-seeds:
       generate-random-seeds-for-all: false
+    redstone-implementation: vanilla
