@@ -62,7 +62,7 @@ def git_pull() -> None:
 def git_add_all(verbose: bool) -> None:
     print("*************** Adding Changes ***************")
     os.system(f"git add -A {'--verbose' if verbose else ''}")
-    print("*************** Done Adding Changes ***************")
+    print("*************** Done Adding Changes ***************\n")
 
 
 def git_add(file: str) -> None:
