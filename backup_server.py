@@ -34,6 +34,7 @@ def file_exists(file: str) -> bool:
 
 def backup_to_github() -> None:
     print("Starting backup to github.")
+    git_pull()
     git_add_all(verbose=True)
     git_commit_added(message='automatic backup.')
     git_push()
@@ -41,12 +42,14 @@ def backup_to_github() -> None:
 
 
 def git_commit_added(*, message: str = '') -> None:
-    subprocess.call(["git", "commit", "-am", f"\'{'auto generated commit' if message == '' else message}\'"])
+    subprocess.call(["git", "commit", "-am", f"{'auto generated commit' if message == '' else message}"])
 
 
 def git_push() -> None:
     subprocess.call(["git", "push"])
 
+def git_pull() -> None:
+    subprocess.call(["git", "pull"])
 
 def git_add_all(verbose: bool) -> None:
     os.system(f"git add -A {'--verbose' if verbose else ''}")
