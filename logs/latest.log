@@ -56,3 +56,20 @@
 [13:09:45] [Server thread/INFO]:  SpigotMC -> https://norska.dev/r/spigot/uar/
 [13:09:45] [Server thread/INFO]:  Polymart -> https://norska.dev/r/polymart/uar/
 [13:09:45] [Server thread/INFO]:  
+[13:10:02] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
+[13:10:02] [Server thread/INFO]: Stopping server
+[13:10:02] [Server thread/INFO]: [FastChunkPregenerator] Disabling FastChunkPregenerator v2.0.6-SNAPSHOT
+[13:10:02] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.9+e20e013
+[13:10:02] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[13:10:02] [Server thread/INFO]: [UltimateAutoRestart] Disabling UltimateAutoRestart vBuild 52
+[13:10:02] [Server thread/INFO]: Saving players
+[13:10:02] [Server thread/INFO]: Saving worlds
+[13:10:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[albion]'/minecraft:overworld
+[13:10:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[albion_nether]'/minecraft:the_nether
+[13:10:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[albion_the_end]'/minecraft:the_end
+[13:10:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (albion): All chunks are saved
+[13:10:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:10:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:10:04] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13:10:04] [Server thread/INFO]: Flushing Chunk IO
+[13:10:04] [Server thread/INFO]: Closing Thread Pool
