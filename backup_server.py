@@ -51,14 +51,18 @@ def git_push() -> None:
     print("*************** Pushing ***************")
     subprocess.call(["git", "push"])
     print("*************** Done Pushing ***************\n")
+    
 
 def git_pull() -> None:
     print("*************** Pulling ***************")
     subprocess.call(["git", "pull"])
     print("*************** Done Pulling ***************\n")
+    
 
 def git_add_all(verbose: bool) -> None:
+    print("*************** Adding Changes ***************")
     os.system(f"git add -A {'--verbose' if verbose else ''}")
+    print("*************** Done Adding Changes ***************")
 
 
 def git_add(file: str) -> None:
